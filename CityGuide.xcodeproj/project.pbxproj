@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD6EADD82746B55E00E93E4E /* CathedralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6EADD72746B55E00E93E4E /* CathedralViewController.swift */; };
+		AD6EADDA2746BF8F00E93E4E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6EADD92746BF8F00E93E4E /* HistoryViewController.swift */; };
 		ADA07FD2274565DD00C1F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA07FD1274565DD00C1F02E /* AppDelegate.swift */; };
 		ADA07FD4274565DD00C1F02E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA07FD3274565DD00C1F02E /* SceneDelegate.swift */; };
-		ADA07FD6274565DD00C1F02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA07FD5274565DD00C1F02E /* ViewController.swift */; };
+		ADA07FD6274565DD00C1F02E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA07FD5274565DD00C1F02E /* MainViewController.swift */; };
 		ADA07FD9274565DD00C1F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA07FD7274565DD00C1F02E /* Main.storyboard */; };
-		ADA07FDB274565DF00C1F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA07FDA274565DF00C1F02E /* Assets.xcassets */; };
 		ADA07FDE274565DF00C1F02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA07FDC274565DF00C1F02E /* LaunchScreen.storyboard */; };
+		ADA07FE82745700000C1F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA07FDA274565DF00C1F02E /* Assets.xcassets */; };
+		ADA07FEC27457AF900C1F02E /* SightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA07FEB27457AF900C1F02E /* SightsTableViewController.swift */; };
+		ADA07FEF2745804F00C1F02E /* Sights.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA07FEE2745804F00C1F02E /* Sights.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD6EADD72746B55E00E93E4E /* CathedralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CathedralViewController.swift; sourceTree = "<group>"; };
+		AD6EADD92746BF8F00E93E4E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		ADA07FCE274565DD00C1F02E /* CityGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA07FD1274565DD00C1F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA07FD3274565DD00C1F02E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADA07FD5274565DD00C1F02E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADA07FD5274565DD00C1F02E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ADA07FD8274565DD00C1F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADA07FDA274565DF00C1F02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA07FDD274565DF00C1F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA07FDF274565DF00C1F02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA07FEB27457AF900C1F02E /* SightsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightsTableViewController.swift; sourceTree = "<group>"; };
+		ADA07FEE2745804F00C1F02E /* Sights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sights.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,51 @@
 		ADA07FD0274565DD00C1F02E /* CityGuide */ = {
 			isa = PBXGroup;
 			children = (
+				ADA07FED2745802D00C1F02E /* Models */,
 				ADA07FD1274565DD00C1F02E /* AppDelegate.swift */,
 				ADA07FD3274565DD00C1F02E /* SceneDelegate.swift */,
-				ADA07FD5274565DD00C1F02E /* ViewController.swift */,
-				ADA07FD7274565DD00C1F02E /* Main.storyboard */,
-				ADA07FDA274565DF00C1F02E /* Assets.xcassets */,
-				ADA07FDC274565DF00C1F02E /* LaunchScreen.storyboard */,
+				ADA07FE5274565F400C1F02E /* ViewControllers */,
+				ADA07FE62745660A00C1F02E /* StoryBoards */,
+				ADA07FE72745661900C1F02E /* Resources */,
 				ADA07FDF274565DF00C1F02E /* Info.plist */,
 			);
 			path = CityGuide;
+			sourceTree = "<group>";
+		};
+		ADA07FE5274565F400C1F02E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADA07FD5274565DD00C1F02E /* MainViewController.swift */,
+				ADA07FEB27457AF900C1F02E /* SightsTableViewController.swift */,
+				AD6EADD72746B55E00E93E4E /* CathedralViewController.swift */,
+				AD6EADD92746BF8F00E93E4E /* HistoryViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ADA07FE62745660A00C1F02E /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				ADA07FD7274565DD00C1F02E /* Main.storyboard */,
+				ADA07FDC274565DF00C1F02E /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		ADA07FE72745661900C1F02E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADA07FDA274565DF00C1F02E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADA07FED2745802D00C1F02E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADA07FEE2745804F00C1F02E /* Sights.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA07FDE274565DF00C1F02E /* LaunchScreen.storyboard in Resources */,
-				ADA07FDB274565DF00C1F02E /* Assets.xcassets in Resources */,
+				ADA07FE82745700000C1F02E /* Assets.xcassets in Resources */,
 				ADA07FD9274565DD00C1F02E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADA07FD6274565DD00C1F02E /* ViewController.swift in Sources */,
+				ADA07FD6274565DD00C1F02E /* MainViewController.swift in Sources */,
+				AD6EADD82746B55E00E93E4E /* CathedralViewController.swift in Sources */,
 				ADA07FD2274565DD00C1F02E /* AppDelegate.swift in Sources */,
+				ADA07FEF2745804F00C1F02E /* Sights.swift in Sources */,
 				ADA07FD4274565DD00C1F02E /* SceneDelegate.swift in Sources */,
+				AD6EADDA2746BF8F00E93E4E /* HistoryViewController.swift in Sources */,
+				ADA07FEC27457AF900C1F02E /* SightsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +354,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +382,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
